@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="advanced.css">
+</head>
+<body>
+    <header class="h1">
+        <img id="img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" width="80px">
+        <nav id="nav">
+            <a href="index.html">Google Search</a>
+            <a href="image.html">image search</a>
+        </nav>
+    </header>
+    <header id="h2" class="left-margin">
+        <h4>Advanced Search</h4>
+    </header>
+    <div id="line"></div>
+    <main class="form-container" id="sec1">
+        <form action="https://www.google.com/search" method="get">
+            <section id="" class="form-group">
+                <label for="input">All these words: </label>
+                <input type="text" name="as_q">
+            </section>
+            <section class="form-group">
+                <label for="input">This exact word or phrase: </label>
+                <input type="text" name="as_epq">
+            </section>
+            <section class="form-group">
+                <label for="input">Any of these words: </label>
+                <input type="text" name="as_oq">
+            </section>
+            <section class="form-group">
+                <label for="input">None of these words: </label>
+                <input type="text" name="as_eq">
+            </section>
+            <section class="form-pad" id="form-group2">
+                <div id="form-group3">
+                    <label for="input">Numbers ranging from: </label>
+                    <input type="text" name="as_nlo">
+                </div>
+                <div id="form-group4">
+                    <label for="input">To: </label>
+                    <input type="text" name="as_nhi">
+                </div>
+            </section>
+            <section>
+                <button type="submit"> Advanced Search </button>
+            </section>
+        </form>
+    </main>
+</body>
+</html>
